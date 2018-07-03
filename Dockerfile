@@ -7,7 +7,7 @@ FROM node:8.11.3-alpine
 LABEL maintainer "lostthetrail"
 
 ENV CI true
-ENV NODE_ENV production
+ENV NODE_ENV development
 
 COPY docker-entrypoint.sh /usr/local/bin/
 

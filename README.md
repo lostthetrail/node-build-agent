@@ -10,5 +10,5 @@ docker build -t node-build-agent:latest .
 ## publish
 ```sh
 docker tag node-build-agent:latest lostthetrail/node-build-agent:latest
-docker publish lostthetrail/node-build-agent:latest
+docker push lostthetrail/node-build-agent:latest
 ```
